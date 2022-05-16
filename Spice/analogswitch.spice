@@ -1,0 +1,13 @@
+* SPICE3 file created from analogswitch.ext - technology: sky130A
+
+.option scale=10000u
+
+X0 a_n1500_n500# a_n1905_200# a_n1500_n1000# SUB sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=100 l=100
+X1 a_n600_200# a_n800_100# a_n1000_200# w_n1600_0# sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=100 l=200
+X2 a_n600_n600# a_n700_n800# a_n1000_n600# SUB sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=100 l=100
+X3 a_n1501_500# a_n1905_200# a_n1501_306# w_n1600_0# sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=201 l=100
+C0 GND SUB 2.18fF **FLOATING
+C1 S SUB 3.04fF **FLOATING
+C2 Vin SUB 2.90fF **FLOATING
+C3 a_n1905_200# SUB 3.95fF **FLOATING
+C4 w_n1600_0# SUB 12.48fF **FLOATING
